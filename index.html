@@ -18,6 +18,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css">
 </head>
@@ -28,17 +29,17 @@
  	<div class="container">
  	  <div class="row">
  	  	<div class="col-xl-7 header-left-col">
- 	  		<img class="header-img" src="img/main-img.png" alt="Монитор" width="549" height="444">
+ 	  		<img class="header-img wow zoomIn" src="img/main-img.png" alt="Монитор" width="549" height="444">
  	  	</div>
  	  	<!-- /.col-7 -->
  	  	<div class="col-xl-5 header-right-col">
  	  		<div class="header-right-col-wrap">
-	 	  		<p class="header-pretitle">Вебразрабочик</p>
-	 	  		<p class="header-title">Вячеслав Демченко</p>
-	 	  		<p class="header-subtitle">Вертска на HTML/CSS<br> Разработка сайтов под ключ</p>
+	 	  		<p class="header-pretitle wow lightSpeedIn" data-wow-delay="0.1s">Вебразрабочик</p>
+	 	  		<p class="header-title wow lightSpeedIn" data-wow-delay="0.2s">Вячеслав Демченко</p>
+	 	  		<p class="header-subtitle wow lightSpeedIn" data-wow-delay="0.3s">Вертска на HTML/CSS<br> Разработка сайтов под ключ</p>
  	  		<div class="header-button-block">
- 	  			<a href="https://vk.com/demchenko_vyacheslav" class="header-button">Связаться</a>
- 	  		    <small class="header-smalltext">*Это бесплатно
+ 	  			<a href="https://vk.com/demchenko_vyacheslav" class="header-button wow bounceInUp" data-wow-delay="0.4s">Связаться</a>
+ 	  		    <small class="header-smalltext wow bounceInLeft" data-wow-delay="0.4s">*Это бесплатно
  	  		    </small>
  	  		</div>
  	  		</div>
@@ -57,7 +58,7 @@
  		<p class="portfolio-subtitle">Мои работы</p>
  		<div class="row">
  			<div class="col-md-6">
- 				<div class="portfolio-col-1">
+ 				<div class="portfolio-col-1 wow slideInUp">
 	 				<img src="img/portfolio_1_img.jpg" alt="Газпром">
 	 				<h3>Внутренний университет «Газпром нефти»</h3>
 	 				<p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для сотрудников. Это настоящий университет, где сотрудники проходят обучение у внутренних тренеров компании или у специально приглашенных лекторов иэкспертов....</p>
@@ -66,7 +67,7 @@
  			</div>
  			<!-- /.col-6 -->
  			<div class="col-md-6">
- 				<div class="portfolio-col-2">
+ 				<div class="portfolio-col-2 wow slideInUp">
 	 				<img src="img/portfolio_2_img.jpg" alt="Платежная система «Мир»">
 	 				<h3>Сайт платежной системы «Мир»</h3>
 	 				<p class="portfolio-text">Обновленная версия сайт знакомит посетителей с компаниями, уже принимающими карты к оплате, и приглашает всех остальных присоединиться к проекту...</p>
@@ -83,27 +84,28 @@
  	<div class="container">
  		<div class="row">
  		<div class="col-md-4">
- 			<h4 class="footer-author">Вячеслав Демченко</h4>
- 			<p class="footer-text">Разработка сайтов под ключ</p>
+ 			<h4 class="footer-author wow rollIn">Вячеслав Демченко</h4>
+ 			<p class="footer-text  rollIn">Разработка сайтов под ключ</p>
  		</div>
  		<div class="col-md-4">
  			<div class="social-block">
  				<p>Подпишитесь:</p>
- 				<a href="#"><img src="img/socials/facebook-logo-button.png" alt="Фейсбук" width="42" height="40"></a>
- 				<a href="#"><img src="img/socials/telegram-symbol.png" alt="Телеграм" width="42" height="40"></a>
- 				<a href="#"><img src="img/socials/vk-social-logotype.png" alt="ВКонтакте" width="42" height="40"></a>
- 				<a href="#"><img src="img/socials/youtube-symbol.png" alt="YouTube" width="42" height="40"></a>
+ 				<a class="wow bounceIn" data-wow-delay="0.1s" href="#"><img src="img/socials/facebook-logo-button.png" alt="Фейсбук" width="42" height="40"></a>
+ 				<a class="wow bounceIn" data-wow-delay="0.2s" href="#"><img src="img/socials/telegram-symbol.png" alt="Телеграм" width="42" height="40"></a>
+ 				<a class="wow bounceIn" data-wow-delay="0.3s" href="https://vk.com/demchenko_vyacheslav"><img src="img/socials/vk-social-logotype.png" alt="ВКонтакте" width="42" height="40"></a>
+ 				<a class="wow bounceIn" data-wow-delay="0.4s" href="#"><img src="img/socials/youtube-symbol.png" alt="YouTube" width="42" height="40"></a>
  			</div>
  		</div>
  		<div class="col-md-4">
  			<div class="footer-cta-block">
- 				<p class="footer-cta">Напишите мне</p>
- 			    <a href="https://vk.com/demchenko_vyacheslav" class="footer-btn">Написать</a>
+ 				<p class="footer-cta wow zoomIn">Напишите мне</p>
+ 			    <a href="https://vk.com/demchenko_vyacheslav" class="footer-btn wow flash">Написать</a>
  			</div>
  		</div>
  		</div>
  	</div>
  </footer>
-
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
